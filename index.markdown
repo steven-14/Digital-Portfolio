@@ -8,9 +8,9 @@ title: Welcome
 <h3>My Bachelors Degree in Physics</h3>
 I am going to complete my Bachelor's Degree in Physics at the Open University in September this year. My last module is a project in which I have chosen to write a review on the topic of quantum metrology with entangled squeezed photons.
 ![OU study tools](/OU physics 1.jpg)
-![Open University](/images4/Open_University.jpg)
-<strong>Photograph 1.</strong> (a) Some of my study materials for BSc Physics Hons. These include textbooks for university level 2 mathematics, level 3 quantum physics, level 3 electromagnetism, a scientific calculator and a mug mat
-(b) The Open University, Milton Keynes
+#![Open University](/images4/Open_University.jpg)
+<strong>Photograph 1. </strong> Some of my study materials for BSc Physics Hons. These include textbooks for university level 2 mathematics, level 3 quantum physics, level 3 electromagnetism, a scientific calculator and a mug mat
+#(b) The Open University, Milton Keynes
 <hr>
 <h3>My Extra-curricula Study</h3>
 
