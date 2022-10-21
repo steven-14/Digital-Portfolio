@@ -1,0 +1,146 @@
+/*****************************TAG SELECTORS********************************/
+body
+{
+  background-color: #FFF5E4;
+  color: #610C63;
+  font-family: 'Arial', sans-serif;
+  margin: 5%;
+  position: relative;
+  text-align: center;
+}
+
+h1
+{
+    color: #5C2E7E;
+  font-family: 'Arial', sans-serif;
+    font-size: 32px;
+  text-align: center;
+
+
+}
+h2
+{
+  color: #810955;
+  display: inline-block;
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  position: relative;
+  text-align: center;
+}
+h3
+{
+  color: #EE81B3;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+h3:hover {
+  color: lightpink;
+}
+a
+{ color: #EE81B3;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
+a:hover {
+  color: orange;
+}
+p
+{
+  color: black;
+  display: block;
+  text-align: center;
+}
+/****************************CLASS SELECTORS ******************************/
+
+
+/**************************CLASSES FOR SECTION 2***********************/
+
+.container1 {
+    margin: auto;
+  position: relative;
+}
+.todo {
+  color: blue;
+}
+
+.wrapper1
+{
+  align-items: center;
+  display: grid;
+  gap: 1%;
+  grid-template-columns: 30% 30% 30%;
+  margin-left: 30px;
+}
+
+.wrapper2
+{
+  align-items: center;
+  display: grid;
+  gap: 1%;
+  grid-template-columns: 30% 30%;
+  justify-content: center;
+
+}
+
+.imageexample1 {
+  border: 3px solid white;
+  border-color: white;
+  border-radius: 2%;
+  box-shadow: 5px 5px 5px #888888;
+  margin: 2%;
+  max-width: 100%;
+  min-width: 1%;
+  }
+.imageexample1:hover{
+  border: 3px solid white;
+  transform: scale(1.05);}
+
+.imageexample2 {
+  border: 3px solid white;
+  border-radius: 2%;
+    box-shadow: 5px 5px 5px #888888;
+  margin: 2%;
+  max-width: 100%;
+  min-width: 1%;
+}
+.imageexample2:hover{
+  border: 3px solid white;
+  transform: scale(1.05);
+}
+
+.imageexample3 {
+    border: 3px solid white;
+  border-radius: 2%;
+    box-shadow: 5px 5px 5px #888888;
+    margin: 2%;
+  max-width: 100%;
+  min-width: 1%;
+}
+.imageexample3:hover{
+  border: 3px solid white;transform: scale(1.05);}
+.imageexample4 {
+  border: 3px solid white;
+  border-radius: 2%;
+    box-shadow: 5px 5px 5px #888888;
+    margin: 2%;
+  max-width: 100%;
+  min-width: 1%;
+}
+.imageexample4:hover{ border: 3px solid white;transform: scale(1.05);}
+.imageexample5 {
+    border: 3px solid white;
+  border-radius: 2%;
+    box-shadow: 5px 5px 5px #888888;
+  max-width: 100%;
+  min-width: 1%;
+}
+
+.imageexample6 {
+    border: 3px solid white;
+  border-radius: 2%;
+    box-shadow: 5px 5px 5px #888888;
+  max-width: 100%;
+  min-width: 1%;
+}
