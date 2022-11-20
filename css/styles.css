@@ -141,9 +141,9 @@ p
   max-width: 100%;
   min-width: 1%;
 }
-.github-image-class:hover{
+.github-image-class:hover {
   border: 3px solid white;transform: scale(1.05);}
-.imageexample4 {
+.github-image-class {
  border: 3px solid white;
  border-radius: 2%;
  box-shadow: 5px 5px 5px #888888;
