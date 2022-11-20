@@ -88,6 +88,14 @@ p
 
 }
 
+.wrapper3 {
+  align-items: center;
+  display: grid;
+  gap: 1%;
+  grid-template-columns: 30%;
+  justify-content: center;
+}
+
 .imageexample1 {
   border: 3px solid white;
   border-color: white;
@@ -134,12 +142,9 @@ p
 }
 
 .github-image-class {
-  align-items: center;
   border: 3px solid white;
   border-radius: 2%;
   box-shadow: 5px 5px 5px #888888;
-  display: grid;
-  grid-template-columns: 30%;
   margin: 2%;
   max-width: 100%;
   min-width: 1%;
