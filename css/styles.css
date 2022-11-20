@@ -92,7 +92,7 @@ p
   align-items: center;
   display: grid;
   gap: 1%;
-  grid-template-columns: 30%;
+  grid-template-columns: 15%;
   justify-content: center;
   margin-left: 30px;
 }
