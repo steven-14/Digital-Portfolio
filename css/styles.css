@@ -57,6 +57,10 @@ p
 
 /**************************CLASSES FOR SECTION 2***********************/
 
+.githubhover:hover { 
+  color: lightpink;
+}
+
 .container1 {
     margin: auto;
   position: relative;
