@@ -144,18 +144,19 @@ p
 
 .github-image-class {
   border: 3px solid white;
-  border-radius: 2%;
+  border-radius: 100%;
   box-shadow: 5px 5px 5px #888888;
   margin: 2%;
   max-width: 100%;
   min-width: 1%;
+  border-radius: 100%;
 }
 
 .github-image-class:hover {
   border: 3px solid white;transform: scale(1.05);}
 .github-image-class {
  border: 3px solid white;
- border-radius: 2%;
+ border-radius: 100%;
  box-shadow: 5px 5px 5px #888888;
  margin: 2%;
  max-width: 100%;
