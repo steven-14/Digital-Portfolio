@@ -11,9 +11,10 @@ body
 
 h1
 {
-    color: #5C2E7E;
+
+  color: #5C2E7E;
   font-family: 'Arial', sans-serif;
-    font-size: 32px;
+  font-size: 32px;
   text-align: center;
 
 
@@ -57,12 +58,13 @@ p
 
 /**************************CLASSES FOR SECTION 2***********************/
 
-.githubhover:hover { 
+.githubhover:hover {
   color: lightpink;
 }
 
 .container1 {
-    margin: auto;
+  justify-content: center;
+  margin: auto;
   position: relative;
 }
 .todo {
@@ -71,11 +73,11 @@ p
 
 .wrapper1
 {
-  align-items: center;
   display: grid;
   gap: 1%;
   grid-template-columns: 30% 30% 30%;
-  margin-left: 30px;
+  justify-content: center;
+
 }
 
 .wrapper2
@@ -94,7 +96,6 @@ p
   gap: 1%;
   grid-template-columns: 15%;
   justify-content: center;
-  margin-left: 30px;
 }
 
 .imageexample1 {
@@ -113,7 +114,7 @@ p
 .imageexample2 {
   border: 3px solid white;
   border-radius: 2%;
-    box-shadow: 5px 5px 5px #888888;
+  box-shadow: 5px 5px 5px #888888;
   margin: 2%;
   max-width: 100%;
   min-width: 1%;
@@ -124,10 +125,10 @@ p
 }
 
 .imageexample3 {
-    border: 3px solid white;
+  border: 3px solid white;
   border-radius: 2%;
-    box-shadow: 5px 5px 5px #888888;
-    margin: 2%;
+  box-shadow: 5px 5px 5px #888888;
+  margin: 2%;
   max-width: 100%;
   min-width: 1%;
 }
@@ -136,8 +137,8 @@ p
 .imageexample4 {
   border: 3px solid white;
   border-radius: 2%;
-    box-shadow: 5px 5px 5px #888888;
-    margin: 2%;
+  box-shadow: 5px 5px 5px #888888;
+  margin: 2%;
   max-width: 100%;
   min-width: 1%;
 }
@@ -149,7 +150,7 @@ p
   margin: 2%;
   max-width: 100%;
   min-width: 1%;
-  border-radius: 100%;
+
 }
 
 .github-image-class:hover {
@@ -166,17 +167,18 @@ p
 
 .imageexample4:hover{ border: 3px solid white;transform: scale(1.05);}
 .imageexample5 {
-    border: 3px solid white;
+  border: 3px solid white;
   border-radius: 2%;
-    box-shadow: 5px 5px 5px #888888;
+  box-shadow: 5px 5px 5px #888888;
   max-width: 100%;
   min-width: 1%;
 }
 
 .imageexample6 {
-    border: 3px solid white;
+  border: 3px solid white;
   border-radius: 2%;
-    box-shadow: 5px 5px 5px #888888;
+  box-shadow: 5px 5px 5px #888888;
   max-width: 100%;
   min-width: 1%;
 }
+
