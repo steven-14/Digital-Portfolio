@@ -129,8 +129,7 @@ p {
   padding: 100px;
 }
 .price-text {
-  font-size: 3rem;
-  line-height: 1.5rem;
+ 	font-size: 3rem;
 }
 .pricing-column {
   padding: 3% 2%;
