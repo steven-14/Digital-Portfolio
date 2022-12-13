@@ -85,9 +85,9 @@ p {
 	font-size: 1.5rem;
 	 font-weight: 600;
 }
-/*  Steven: This improves the features section layout on Chrome & MS Edge*/
+/*  This improves the features section layout on Chrome & MS Edge*/
 .feature-box {
-  padding: 3.5%;
+  padding: 7.5%;
 }
 .icon {
   color: #ef4c68;
