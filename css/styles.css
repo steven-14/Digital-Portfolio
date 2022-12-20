@@ -79,6 +79,14 @@ p
   justify-content: center;
 
 }
+.wrapper1b
+{
+  display: grid;
+  gap: 1%;
+  grid-template-columns: 30%;
+  justify-content: center;
+
+}
 
 .wrapper2
 {
@@ -181,4 +189,3 @@ p
   max-width: 100%;
   min-width: 1%;
 }
-
