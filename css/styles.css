@@ -79,6 +79,15 @@ p
   justify-content: center;
 
 }
+.wrapper1b
+{
+  display: grid;
+  gap: 1%;
+  grid-template-columns: 80%;
+  justify-content: center;
+
+}
+
 
 .wrapper2
 {
@@ -132,13 +141,15 @@ p
   max-width: 100%;
   min-width: 1%;
 }
-.imageexample3:hover{
-  border: 3px solid white;transform: scale(1.05);}
-.imageexample4 {
+.imageexample3:hover {
+  border: 3px solid white;transform: scale(1.05);
+}
+.wpimage1 {
   border: 3px solid white;
   border-radius: 2%;
   box-shadow: 5px 5px 5px #888888;
   margin: 2%;
+  max-height: 85%;
   max-width: 100%;
   min-width: 1%;
 }
@@ -148,7 +159,7 @@ p
   border-radius: 100%;
   box-shadow: 5px 5px 5px #888888;
   margin: 2%;
-  max-width: 100%;
+  max-width: 85%;
   min-width: 1%;
 
 }
@@ -160,12 +171,14 @@ p
  border-radius: 100%;
  box-shadow: 5px 5px 5px #888888;
  margin: 2%;
- max-width: 100%;
+ max-width: 85%;
  min-width: 1%;
 }
 
 
-.imageexample4:hover{ border: 3px solid white;transform: scale(1.05);}
+.wpimage1:hover {
+  border: 3px solid white;transform: scale(1.05);
+}
 .imageexample5 {
   border: 3px solid white;
   border-radius: 2%;
