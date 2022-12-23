@@ -83,11 +83,8 @@ p
 {
   display: grid;
   gap: 1%;
-<<<<<<< HEAD
   grid-template-columns: 80%;
-=======
   grid-template-columns: 90%;
->>>>>>> f51839ca01bd95f24b0782c45de353e665f1b2f2
   justify-content: center;
 
 }
@@ -148,18 +145,17 @@ p
 .imageexample3:hover {
   border: 3px solid white;transform: scale(1.05);
 }
-<<<<<<< HEAD
 .wpimage1 {
-=======
-.imageexample4 {
->>>>>>> f51839ca01bd95f24b0782c45de353e665f1b2f2
   border: 3px solid white;
   border-radius: 2%;
   box-shadow: 5px 5px 5px #888888;
   margin: 2%;
-  max-height: 85%;
-  max-width: 100%;
+  max-height:50%;
+  max-width: 50%;
   min-width: 1%;
+}
+.wpimage1:hover {
+  border: 3px solid white;transform: scale(1.05);
 }
 
 .github-image-class {
@@ -183,14 +179,6 @@ p
  min-width: 1%;
 }
 
-
-<<<<<<< HEAD
-.wpimage1:hover {
-=======
-.imageexample4:hover {
->>>>>>> f51839ca01bd95f24b0782c45de353e665f1b2f2
-  border: 3px solid white;transform: scale(1.05);
-}
 .imageexample5 {
   border: 3px solid white;
   border-radius: 2%;
