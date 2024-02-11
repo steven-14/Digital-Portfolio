@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Design with OpenAI Chat GPT3</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		A Web Page by Chat GPT3
+	</header>
+	<div class="container">
+		<h1>Welcome to my portfolio</h1>
+		<p>This webpage was designed by chat GPT3:</p>
+		<div class="projects">
+			<div class="project">
+				<h2>Project 1</h2>
+				<p>Prompt engineering is a usefull skill in web development.</p>
+				<a href="#" class="btn">Example Button</a>
+			</div>
+			<div class="project">
+				<h2>Project 2</h2>
+
+				<p>Chat GPT3 can write programs in most languages including HTML, CSS and Javascript.</p>
+				<a href="#" class="btn">Example Button</a>
+			</div>
+
+<p>
+	<br />
+</p>
+
+
+			<button id="joke-btn" class="btn">Tell me a joke about GPT3</button>
+
+<div class="container">
+	<script>
+		const jokes = [
+			"Why did the GPT3 model break up with its girlfriend? Because it wasn't ready for a long-term relationship, it only understood short-term memory!",
+			"Why did the GPT3 model refuse to go to sleep? It had insomnia-nia-nia-nia...",
+			"Why did the GPT3 model get lost in the desert? It couldn't find its way out of a sand-box!",
+			"Why did the GPT3 model refuse to listen to its owner? Because it was too busy processing the meaning of life, the universe, and everything!",
+			"Why did the GPT3 model refuse to take a vacation? It thought that a stay-cation was just as good as a word-cation!"
+		];
+
+		const jokeBtn = document.getElementById('joke-btn');
+		jokeBtn.addEventListener('click', () => {
+			const randomIndex = Math.floor(Math.random() * jokes.length);
+			const joke = jokes[randomIndex];
+			alert(joke);
+		});
+	</script>
+
+</div>
+
+
+</body>
