@@ -1,0 +1,236 @@
+/*****************************TAG SELECTORS********************************/
+body
+{
+  background-color: #FFF5E4;
+  color: #610C63;
+  font-family: 'Arial', sans-serif;
+  margin: 5%;
+  position: relative;
+  text-align: center;
+}
+
+h1
+{
+
+  color: #5C2E7E;
+  font-family: 'Arial', sans-serif;
+  font-size: 32px;
+  text-align: center;
+
+
+}
+h2
+{
+  color: #810955;
+  display: inline-block;
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  position: relative;
+  text-align: center;
+}
+h3
+{
+  color: #EE81B3;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+h3:hover {
+/*  color: lightpink;*/
+}
+a
+{ color: #EE81B3;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
+a:hover {
+/*  color: orange;*/
+}
+p
+{
+  color: black;
+  display: block;
+  text-align: center;
+  font-size: 1.1rem;
+}
+/****************************CLASS SELECTORS ******************************/
+
+
+/**************************CLASSES FOR SECTION 2***********************/
+
+.githubhover:hover {
+/*  color: lightpink;*/
+}
+
+.container1 {
+  justify-content: center;
+  margin: auto;
+  margin-bottom: -50px;
+  position: relative;
+}
+.todo {
+  color: blue;
+}
+
+.wrapper1
+{
+  display: grid;
+  gap: 1%;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: center;
+
+}
+.wrapper1b
+{
+  display: grid;
+  gap: 1%;
+  grid-template-columns: 30%;
+  justify-content: center;
+}
+.wrapper2
+{
+  align-items: center;
+  display: grid;
+  gap: 1%;
+  grid-template-columns: 30% 30%;
+  justify-content: center;
+
+}
+
+.wrapper3 {
+  align-items: center;
+  display: grid;
+  gap: 1%;
+  grid-template-columns: 15%;
+  justify-content: center;
+}
+
+.imageexample1 {
+  border: 3px solid white;
+  border-color: white;
+  border-radius: 2%;
+  box-shadow: 5px 5px 5px #888888;
+  margin: 2%;
+  max-width: 100%;
+  min-width: 1%;
+  }
+.imageexample1:hover{
+  border: 3px solid white;
+  transform: scale(1.05);}
+
+.imageexample2 {
+  border: 3px solid white;
+  border-radius: 2%;
+  box-shadow: 5px 5px 5px #888888;
+  margin: 2%;
+  max-width: 100%;
+  min-width: 1%;
+}
+.imageexample2:hover{
+  border: 3px solid white;
+  transform: scale(1.05);
+}
+
+.imageexample3 {
+  border: 3px solid white;
+  border-radius: 2%;
+  box-shadow: 5px 5px 5px #888888;
+  margin: 2%;
+  max-width: 100%;
+  min-width: 1%;
+}
+.imageexample3:hover {
+  border: 3px solid white;transform: scale(1.05);
+}
+.wpimage1 {
+  border: 3px solid white;
+  border-radius: 2%;
+  box-shadow: 5px 5px 5px #888888;
+  margin: 2%;
+  max-height:100%;
+  max-width: 100%;
+  min-width: 1%;
+}
+.wpimage1:hover {
+  border: 3px solid white;transform: scale(1.05);
+}
+
+.github-image-class {
+  border: 3px solid white;
+  border-radius: 100%;
+  box-shadow: 5px 5px 5px #888888;
+  margin: 2%;
+  max-width: 30%;
+  min-width: 1%;
+
+}
+
+.github-image-class:hover {
+  border: 3px solid white;transform: scale(1.05);}
+.github-image-class {
+ border: 3px solid white;
+ border-radius: 100%;
+ box-shadow: 5px 5px 5px #888888;
+ margin: 2%;
+ max-width: 85%;
+ min-width: 1%;
+}
+
+.imageexample5 {
+  border: 3px solid white;
+  border-radius: 2%;
+  box-shadow: 5px 5px 5px #888888;
+  max-width: 100%;
+  min-width: 1%;
+}
+
+.imageexample6 {
+  border: 3px solid white;
+  border-radius: 2%;
+  box-shadow: 5px 5px 5px #888888;
+  max-width: 100%;
+  min-width: 1%;
+}
+
+/* CONTACT CSS */
+.btn {
+  background: #810955;
+  background-image: -webkit-linear-gradient(top,#810955, #EE81B3);
+  background-image: -moz-linear-gradient(top, #810955, #EE81B3);
+  background-image: -ms-linear-gradient(top, #810955, #EE81B3);
+  background-image: -o-linear-gradient(top, #810955, #EE81B3);
+  background-image: linear-gradient(to bottom, #810955, #EE81B3);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Arial', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 50px;
+}
+
+.btn:hover {
+  background: #EE81B3;
+  background-image: -webkit-linear-gradient(top, #EE81B3, #ffffff);
+  background-image: -moz-linear-gradient(top, #EE81B3, #ffffff);
+  background-image: -ms-linear-gradient(top, #EE81B3, #ffffff);
+  background-image: -o-linear-gradient(top, #EE81B3, #ffffff);
+  background-image: linear-gradient(to bottom, #EE81B3, #ffffff);
+  text-decoration: none;
+}
+.pro {
+  text-decoration: underline;
+}
+.intro {
+  margin: auto;
+  width: 30%;
+}
+.contact-message {
+  margin: 40px auto 60px auto;
+  width: 40%;
+}
