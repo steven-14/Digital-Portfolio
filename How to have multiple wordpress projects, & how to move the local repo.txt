@@ -1,0 +1,85 @@
+How to change the local repository
+
+https://stackoverflow.com/questions/11384928/change-git-repository-directory-location#:~:text=In%20Windows%2C%20you%20can%20just,use%20git%20as%20per%20usual.&text=A%20more%20Git%20based%20approach,from%20local%20to%20remote%20repository.
+
+_______________________________________________________
+
+
+
+How to install multiple wordpress projects
+
+How to Set Up Multiple Wordpress Installs Locally
+
+https://www.youtube.com/watch?v=_FkUS866KOs
+How to Set Up Multiple Wordpress Installs Locally
+
+https://www.youtube.com/watch?v=_FkUS866KOs
+
+s. and look at this:
+https://wpmudev.com/blog/setting-up-xampp/?utm_expid=3606929-94.Ie3dH-CaRwe6MU3VrZsdvw.0&utm_referrer=https%3A%2F%2Fwww.google.com%2F
+something about setting up multisite by typing it in. I think that might be something else though.
+
+
+guide on wp dve.
+https://premium.wpmudev.org/blog/sett...
+get xampp.
+wordpress.
+
+check if working localhost if see xampp... then working.
+lamp stack install wordpress.
+
+in xampp, dev, htdocs.
+could have subfolder or different sites there.
+he likes a short url so in htdoce. s. then could put in 
+themes. But don’t.
+new folder, name, install wordpress to that folder.
+copy it to there.
+he has installed to htdocs\name 
+and wordpress folders are there.
+go to wpconfig-sample, change to just wpconfig.
+open it.
+
+enter new db name, db user and db password there.
+in the thing parts there.
+
+
+there is also a wpconfig sample file.
+
+go into xammp and admin for db and start configuring it.
+
+create new db, same name as the folder. put db infront of name maybe.
+add new use, don't need to make tables now.
+generate password.
+copy them into the wpconfig.
+go to localhost\name
+if errors then check matches php admin.
+if proper get to wordpress form,
+create name, new user, now new wp website.
+now make another.
+name2 in the same xamp\htdocs folder.
+click install wordpress.
+
+s. i wonder if can just make themes. maybe not.
+copy wordpress there, same,
+make new db go to localhost admin or from wp site.
+make new usernames, priveleges add user account user name2
+generate password, rename wpconfig sample in that folder to
+wpconfig. open it, copy the details from the myadmin program,
+save.
+
+make sure press create new user. check it's added.
+go to localhost/name2, see wordpress form, make name,
+same as previous, click install wordpress.
+
+now you can go to different sites and they are both there.
+to check you can change the them of one to show it's different.
+they have differetn databases, can access dbs in myadmin.
+now can change things in each folder to program.
+
+s. how to switch between  each project. So far, just open the different websites. 
+I think there should be a login unless you are logged into both.
+You might have to log out of each db using xampp.
+END
+
+
+
