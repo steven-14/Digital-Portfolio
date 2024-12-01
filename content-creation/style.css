@@ -1,6 +1,6 @@
 body {
   margin: auto;
-  background-color: #FFDBBB;
+  background-color: #fef3e2;
 
 }
 
@@ -18,7 +18,7 @@ body {
 }
 
 .box {
-  background-color: #fef3e2;
+  background-color: #FFDBBB;
   color: #fff;
   border-radius: 5px;
   grid-template-columns: 1290px;
