@@ -1,68 +1,49 @@
 body {
   margin: auto;
-  background-color: lightcyan;
-
+  background-color: #030337;
 }
 
 .wrapper {
-  display: grid 100%;
+  display: block; /*changed to block*/
   font: Ariel;
-  grid-template-columns: 1290px;
-  
-
+  width: 80%; /* Relative width for the wrapper */
+  max-width: 1200px; /* added max width*/
   color: #444;
-  margin: 7%;
-  margin-top: 1%;
+  margin: 7% auto; /* changed to auto*/
   padding: 20px;
   font-size: 150%;
+  text-align: center; /* center content*/
+
 }
 
-.box {
-  background-color: #ADD8E6;
-  color: #fff;
-  border-radius: 5px;
-  grid-template-columns: 1290px;
-  padding: 20px;
-  font: Ariel;
-  font-size: 150%;
-  margin: 1%;
-}
 
-h1
-{
-
-  color: #0b0357ae;
+h1 {
+  color: #FFFFFF;
   font-family: 'Arial', sans-serif;
   font-size: 36px;
   text-align: center;
-
-
 }
 
-h2
-{
-  color: #0b0357ae;
+h2 {
+  color: #FFFFFF;
   font-family: 'Arial', sans-serif;
   font-size: 25px;
   text-align: center;
 }
 
-h3
-{
+h3 {
   color: #0b0357ae;
   font-family: 'Arial', sans-serif;
   text-align: center;
   font-size: 16px;
-  
+
 }
 
-h4
-{
+h4 {
   color: #0b0357ae;
   font-family: 'Arial', sans-serif;
   font-size: 14px;
   text-align: left;
-  
 }
 
 .center {
@@ -80,3 +61,7 @@ h4
   width: 50%;
 }
 
+img{
+  width: 100%; /* added*/
+  height: auto; /*added*/
+}

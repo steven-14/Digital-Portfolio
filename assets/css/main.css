@@ -2847,9 +2847,10 @@ input, select, textarea {
 		.main.style2 {
 			background-color: #030337;
 			color: rgba(255, 255, 255, 0.75);
-			background-attachment: fixed,							fixed;
+			background-attachment: fixed, fixed;
 			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
-			background-size: auto,							cover;
+			background-size: auto, cover;
+			padding: 1em 0 4em 0;  /* Reduced top padding */
 		}
 
 			.main.style2 a {
@@ -3532,3 +3533,54 @@ input, select, textarea {
 			}
 
 	}
+
+	.new-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Space between grid items */
+}
+
+.image-element {
+    /* Add any styling for each individual image+text element here */
+    text-align: center; /* example */
+}
+
+.container {
+    margin: 0 auto;
+    max-width: calc(100% - 4em);
+    width: 60em;
+    text-align: center;  /* New Rule */
+}
+
+.centered-class {
+	background-color: #030337;
+	
+	background-size: auto, cover;
+	padding: 1em 0 1em 0;  /* Reduced top padding */
+}
+
+.container {
+    margin: 0 auto;
+    max-width: calc(100% - 4em);
+    width: 60em;
+    text-align: center;
+}
+
+/* Main */
+
+.main {
+    padding: 6em 0 4em 0;
+}
+
+.main.style2 {
+    background-color: #030337;
+    color: rgba(255, 255, 255, 0.75);
+    background-attachment: fixed, fixed;
+    background-image: url("images/overlay1.png"), url("../../images/header.jpg");
+    background-size: auto, cover;
+}
+
+section.special,
+article.special {
+    text-align: center;
+}
